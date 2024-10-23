@@ -37,8 +37,8 @@ def overlay_images_sift(img1, img2):
     return overlaid_image
 
 def main():
-    img1 = cv2.imread("C:/PBL_FINAL/Project-Based-Learning/Pancreas/10x data/1_Pancreas_10x.tif")
-    img2 = cv2.imread("C:/PBL_FINAL/Project-Based-Learning/Pancreas/10x data/3_Pancreas_10x.tif")
+    img1 = cv2.imread("C:/PBL_FINAL/Project-Based-Learning/Pancreas/10x data/35_Pancreas_10x.tif")
+    img2 = cv2.imread("C:/PBL_FINAL/Project-Based-Learning/Pancreas/10x data/36_Pancreas_10x.tif")
 
     overlaid_image = overlay_images_sift(img1, img2)
     resized_image = cv2.resize(overlaid_image, None, fx=0.5, fy=0.5)
